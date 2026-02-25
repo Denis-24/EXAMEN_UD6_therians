@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Expediente {
 
     static Scanner teclado = new Scanner(System.in);
+    static String control= "S";
 
     private Ciudadano ciudadano;
     private ArrayList<TipoSer> listaSeres;
@@ -19,8 +20,14 @@ public class Expediente {
     }
 
     public void insertarSeres(){
-        System.out.println("Inserta el tipo de ser que quieres censar [THERIAN, DOMESTICO, EXOTICO]:");
-        String tipo = teclado.next();
+        do {
+            System.out.println("Inserta el tipo de ser que quieres censar [THERIAN, DOMESTICO, EXOTICO]:");
+            TipoSer tipo = TipoSer.valueOf(teclado.next());
+            System.out.println("Tipo tasa actual: " + tipo.getPuntos());
+            listaSeres.add(tipo);
+            System.out.println("¿Quieres añadir otro tipo de ser? [S/N]");
+            control = teclado.next();
+        }while (control=="S");
     }
 
     public void vertareas(){

@@ -31,6 +31,7 @@ public class CensoMutxamelApp {
         listaExpedientes.add(expediente);
 
         expediente.insertarSeres();
+        a1.siguienteEstado(expediente);
 
 
 

@@ -42,13 +42,13 @@ public class Agente extends Persona implements AccionesPoliciales{
 
     @Override
     public Expediente crearExpediente() {
-        Expediente e1 = new Expediente(solicitarDatosCiudadano(),EstadoTramite.INICIAND);
+        Expediente e1 = new Expediente(solicitarDatosCiudadano(),EstadoTramite.INICIANDO);
         return e1;
     }
 
     @Override
     public void siguienteEstado(Expediente expediente) {
-
+        System.out.println("Agente modificando estado: " + expediente.getEstadoTramite() +" a ");
     }
 
     @Override

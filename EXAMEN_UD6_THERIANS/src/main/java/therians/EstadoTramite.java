@@ -1,5 +1,5 @@
 package therians;
 
 public enum EstadoTramite {
-    INICIAND,COMPLETADO,PAGADO,ARCHIVADO;
+    INICIANDO,COMPLETADO,PAGADO,ARCHIVADO;
 }

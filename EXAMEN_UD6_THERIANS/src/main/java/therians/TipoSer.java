@@ -10,4 +10,8 @@ public enum TipoSer {
         this.puntos = puntos;
     }
 
+
+    public double getPuntos() {
+        return puntos;
+    }
 }

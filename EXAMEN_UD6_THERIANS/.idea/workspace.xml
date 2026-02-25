@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a6b321-b42a-456a-a60b-c816ac9cc5aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/therians/AccionesPoliciales.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/therians/Agente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/therians/CensoMutxamelApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/therians/Ciudadano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/therians/ControlArchivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/therians/EstadoTramite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/therians/Expediente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/therians/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/therians/TipoSer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/therians/Agente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/therians/Agente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/therians/CensoMutxamelApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/therians/CensoMutxamelApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/therians/Expediente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/therians/Expediente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/therians/TipoSer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/therians/TipoSer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
